@@ -55,4 +55,4 @@ def test_Langchain_Quickstart(langchain_llm):
     at.button[0].set_value(True).run()
     print(at)
     assert at.info[0].value == RESPONSE
-st.title("Flowers Classifier")
+st.title("🔎 LangChain - Chat with search")
