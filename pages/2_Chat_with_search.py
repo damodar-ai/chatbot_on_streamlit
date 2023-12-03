@@ -5,6 +5,10 @@ from langchain.callbacks import StreamlitCallbackHandler
 from langchain.chat_models import ChatOpenAI
 from langchain.tools import DuckDuckGoSearchRun
 
+
+option = st.sidebar.selectbox('Select the API', ( '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'))
+
+
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
