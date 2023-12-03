@@ -6,6 +6,7 @@ from openai.types.chat.chat_completion import ChatCompletion, Choice
 
 
 # See https://github.com/openai/openai-python/issues/715#issuecomment-1809203346
+st.title("🔎 LangChain - Chat with search")
 def create_chat_completion(response: str, role: str = "assistant") -> ChatCompletion:
     return ChatCompletion(
         id="foo",
