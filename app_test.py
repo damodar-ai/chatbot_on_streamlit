@@ -7,7 +7,7 @@ from openai.types.chat.chat_completion import ChatCompletion, Choice
 
 st.title("🔎 LangChain - Chat with search")
 html_temp = """
-    <div style="background-color:teal ;padding:10px; border-radius:50px;">
+    <div style="background-color:yellow ;padding:10px; border-radius:50px;">
     <h2 style="color:white;text-align:center;">Iris Classification</h2>
     </div>
     <div style="background-color:yellow; padding-top:10px; margin:10px;
