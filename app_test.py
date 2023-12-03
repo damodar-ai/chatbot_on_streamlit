@@ -77,3 +77,5 @@ def main():
     <h6 style="color:black;text-align:center;">Project By:-Damodar Tiwari</h6>
     </div>
     """
+if __name__=='__main__':
+    main()
