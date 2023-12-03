@@ -4,7 +4,7 @@ from unittest.mock import patch
 from streamlit.testing.v1 import AppTest
 from openai.types.chat import ChatCompletionMessage
 from openai.types.chat.chat_completion import ChatCompletion, Choice
-st.write("This is <b>bold</b> text, and this is <em>italicized</em> text.")
+
 
 # See https://github.com/openai/openai-python/issues/715#issuecomment-1809203346
 def create_chat_completion(response: str, role: str = "assistant") -> ChatCompletion:
