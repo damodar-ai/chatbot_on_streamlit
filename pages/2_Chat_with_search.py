@@ -6,7 +6,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.tools import DuckDuckGoSearchRun
 
 
-option = st.sidebar.selectbox('Select the API', ( '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','First One Is Working'))
+openai_api_key = st.sidebar.selectbox('Select the API', ( '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','First One Is Working'))
 
 
 with st.sidebar:
