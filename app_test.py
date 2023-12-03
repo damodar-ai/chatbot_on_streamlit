@@ -1,10 +1,11 @@
+import streamlit as st
 import datetime
 from unittest.mock import patch
 from streamlit.testing.v1 import AppTest
 from openai.types.chat import ChatCompletionMessage
 from openai.types.chat.chat_completion import ChatCompletion, Choice
 
-
+st.title("🔎 LangChain - Chat with search")
 # See https://github.com/openai/openai-python/issues/715#issuecomment-1809203346
 
 def create_chat_completion(response: str, role: str = "assistant") -> ChatCompletion:
