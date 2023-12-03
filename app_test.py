@@ -66,7 +66,9 @@ def test_Langchain_Quickstart(langchain_llm):
     print(at)
     assert at.info[0].value == RESPONSE
 st.markdown('Damodar Tiwari')
-html_temp = """
+def main():
+    st.title("Flowers Classifier")
+    html_temp = """
     <div style="background-color:teal ;padding:10px; border-radius:50px;">
     <h2 style="color:white;text-align:center;">Iris Classification</h2>
     </div>
