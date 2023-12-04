@@ -10,8 +10,8 @@ from langchain.tools import DuckDuckGoSearchRun
 
 
 with st.sidebar:
-    # openai_api_key = st.sidebar.selectbox('Select the API', ( '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','First One Is Working'))
-    openai_api_key = "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"
+    openai_api_key = st.sidebar.selectbox('Select the API', ( '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','First One Is Working'))
+    # openai_api_key = "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"
 
 st.title("🔎 सर्वज्ञ - चाहे जो पूछ लो")
 
