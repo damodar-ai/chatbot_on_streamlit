@@ -15,9 +15,8 @@ with st.sidebar:
 st.title("🔎 Sarvagya - Ask Whatever You Want")
 
 """
-`ProjectByDamodarTiwari`
-In this example, we're using `StreamlitCallbackHandler` to display the thoughts and actions of an agent in an interactive Streamlit app.
-Try more LangChain 🤝 Streamlit Agent examples at [github.com/langchain-ai/streamlit-agent](https://github.com/Damodar12345678/chatbot_on_streamlit).
+
+This application is capable of answering all your questions based on the input given by your files, chats and your prompts.  Its name is Sarvajna.  You can use it by entering the AP key of your Open AK. 🤝  [github.com/langchain-ai/streamlit-agent](https://github.com/Damodar12345678/chatbot_on_streamlit).
 """
 
 if "messages" not in st.session_state:
