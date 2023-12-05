@@ -6,12 +6,10 @@ from langchain.chat_models import ChatOpenAI
 from langchain.tools import DuckDuckGoSearchRun
 
 
-# openai_api_key = st.sidebar.selectbox('Select the API', ( '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','First One Is Working'))
-
-
 with st.sidebar:
-    openai_api_key = st.sidebar.selectbox('Select the API', ( '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','First One Is Working'))
-    # openai_api_key = "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"
+    openai_api_key = st.text_input("OpenAI API Key", type="password")
+    "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
+
 
 st.title("🔎 सर्वज्ञ - चाहे जो पूछ लो")
 
