@@ -8,7 +8,7 @@ st.markdown(
         </style>
         """,
         unsafe_allow_html=True)
-    st.markdown("""
+st.markdown("""
     <div style="background-color:Yellow;padding:10px">
         <h2 style="color:Black;text-align:center;">Loan Approval Prediction App </h2>
     </div>
