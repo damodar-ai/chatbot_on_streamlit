@@ -1,3 +1,1 @@
-.stSlider {
-    background-color: blue;
-}
+
