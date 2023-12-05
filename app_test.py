@@ -9,7 +9,7 @@ st.markdown(
         """,
         unsafe_allow_html=True)
 st.markdown("""
-    <div style="background-color:Yellow;padding:10px;height:80%">
+    <div style="background-color:Yellow;padding:10px;border-radius:5px">
         <h2 style="color:Black;text-align:center;">Loan Approval Prediction App </h2>
     </div>
     """, unsafe_allow_html=True)
