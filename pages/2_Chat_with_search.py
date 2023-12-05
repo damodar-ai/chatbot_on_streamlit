@@ -16,7 +16,10 @@ st.title("🔎 Sarvagya - Ask Whatever You Want")
 
 """
 
-This application is capable of answering all your questions based on the input given by your files, chats and your prompts.  Its name is Sarvajna.  You can use it by entering the AP key of your Open AK. 🤝  [github.com/langchain-ai/streamlit-agent](https://github.com/Damodar12345678/chatbot_on_streamlit).
+This application is capable of answering all your questions based
+on the input given by your files, chats and your prompts.  Its name
+is Sarvagya. You can use it by entering the API key of your Open AI. 🤝  
+[github.com/langchain-ai/streamlit-agent](https://github.com/Damodar12345678/chatbot_on_streamlit).
 """
 
 if "messages" not in st.session_state:
