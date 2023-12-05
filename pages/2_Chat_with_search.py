@@ -9,6 +9,7 @@ from langchain.tools import DuckDuckGoSearchRun
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", type="password")
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
+    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Damodar12345678/chatbot_on_streamlit?quickstart=1)"
 
 
 st.title("🔎 सर्वज्ञ - चाहे जो पूछ लो")
@@ -43,3 +44,4 @@ if prompt := st.chat_input(placeholder="Who won the election in MP?"):
         response = search_agent.run(st.session_state.messages, callbacks=[st_cb])
         st.session_state.messages.append({"role": "assistant", "content": response})
         st.write(response)
+"[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Damodar12345678/chatbot_on_streamlit?quickstart=1)"
