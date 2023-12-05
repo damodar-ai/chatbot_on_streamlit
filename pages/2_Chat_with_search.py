@@ -12,7 +12,7 @@ with st.sidebar:
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Damodar12345678/chatbot_on_streamlit?quickstart=1)"
 
 
-st.title("🔎 सर्वज्ञ - चाहे जो पूछ लो")
+st.title("🔎 Sarvagya - Ask Whatever You Want")
 
 """
 `ProjectByDamodarTiwari`
