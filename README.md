@@ -1,6 +1,6 @@
 # 🎈 Streamlit + LLM Examples App
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Damodar12345678/Breadcrumbschatbot_on_streamlit?quickstart=1)
 
 Starter examples for building LLM apps with Streamlit.
 
@@ -19,7 +19,7 @@ Current examples include:
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://llm-examples.streamlit.app/)
+
 
 ### Get an OpenAI API key
 
@@ -46,5 +46,5 @@ OPENAI_API_KEY='xxxxxxxxxx'
 virtualenv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-streamlit run Chatbot.py
+streamlit run chat_with_search.py
 ```
