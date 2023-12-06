@@ -11,7 +11,8 @@ with st.sidebar:
     "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Damodar12345678/chatbot_on_streamlit?quickstart=1)"
     # "[st.write["Try It Out With This API Ket :- "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""]]"
-   " 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"
+    '''Try It Out With This API Ket :- "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'''
+# " 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"
 
 st.title("🔎 Sarvagya - Ask Whatever You Want")
 
