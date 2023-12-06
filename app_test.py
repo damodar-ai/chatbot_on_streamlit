@@ -13,4 +13,4 @@ st.markdown("""
         <h2 style="color:Black;text-align:center;">Sarvagya - Ask Whatever You Want </h2>
     </div>
     """, unsafe_allow_html=True)
-st.image('DOWNLOAD.png', caption='Sunrise by the mountains')
+st.image('DOWNLOAD.png')
